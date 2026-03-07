@@ -1,0 +1,64 @@
+
+
+
+
+Tilt
+An Interactive Fiction
+Release 1 / Serial number 260307 / Inform 7 v10.1.2 / D
+
+Empty Room
+Nothing to see here.
+
+You can see a deck of cards here.
+
+>You draw a nine of hearts.
+
+>You draw a five of diamonds.
+
+>You draw an ace of spades.
+
+>You draw a ten of spades.
+
+>You draw an eight of spades.
+
+>You are carrying:
+  royal flush (A`-K`-Q`-J`-10`)
+
+>You are carrying:
+  straight flush (Qc-Jc-10c-9c-8c)
+
+>You are carrying:
+  four of a kind (8f-8c-8e-8`-3c)
+
+>You are carrying:
+  full house (10c-10e-10`-Ac-A`)
+
+>You are carrying:
+  flush (Qe-Je-7e-5e-2e)
+
+>You are carrying:
+  straight (Ae-K`-Qf-Jc-10e)
+
+>You are carrying:
+  three of a kind (2`-2e-2c-4c-3`)
+
+>You are carrying:
+  two pairs (7f-7c-6f-6`-9e)
+
+>You are carrying:
+  two pairs (Ae-Ac-6f-6`-7f)
+
+>You are carrying:
+  pair of queens (Qe-Q`-10f-7`-4c)
+
+>You are carrying:
+  high card (Kf-Je-9`-7c-5f)
+
+>You are carrying:
+  straight (5f-4f-3`-2f-Ae)
+
+>You are carrying:
+  royal flush (A`-K`-Q`-J`-10`)
+
+>
+<end of input>

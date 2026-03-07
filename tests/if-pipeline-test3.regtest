@@ -1,0 +1,6 @@
+** game: ../if-pipeline-test3.ulx
+** interpreter: /home/johnesco/glulxe/glulxe -q
+
+* smoke
+> look
+Starting Room
