@@ -12,9 +12,6 @@ C:\code\ifhub\projects\if-pipeline-test3\
 ├── .github/workflows/     ← GitHub Actions workflow for Pages deployment
 └── tests/
     ├── project.conf       ← Test configuration
-    ├── run-tests.sh       ← RegTest runner (wrapper)
-    ├── run-walkthrough.sh ← Walkthrough runner (wrapper)
-    ├── find-seeds.sh      ← Seed discovery (wrapper)
     ├── seeds.conf         ← Golden seeds
     ├── if-pipeline-test3.regtest      ← Regression tests
     └── inform7/
@@ -34,18 +31,18 @@ C:\code\ifhub\projects\if-pipeline-test3\
 
 ```bash
 # Compile + set up web player
-bash /c/code/ifhub/tools/compile.sh if-pipeline-test3
+python /c/code/ifhub/tools/compile.py if-pipeline-test3
 
 # Publish to GitHub Pages (first time creates repo)
-bash /c/code/ifhub/tools/publish.sh if-pipeline-test3
+python /c/code/ifhub/tools/publish.py if-pipeline-test3
 ```
 
 ## Testing
 
 ```bash
-wsl -e bash tests/run-walkthrough.sh --no-seed --no-save
-wsl -e bash tests/run-tests.sh
-wsl -e bash tests/find-seeds.sh
+python /c/code/ifhub/tools/testing/run_walkthrough.py --config tests/project.conf --no-seed --no-save
+python /c/code/ifhub/tools/testing/run_tests.py --config tests/project.conf
+python /c/code/ifhub/tools/testing/find_seeds.py --config tests/project.conf
 ```
 
 ## Play Locally
