@@ -26,6 +26,9 @@ Thumbs.db
 *~
 .*.sw[op]
 
+# Python bytecode
+__pycache__/
+
 # IDE
 .vscode/
 .idea/
